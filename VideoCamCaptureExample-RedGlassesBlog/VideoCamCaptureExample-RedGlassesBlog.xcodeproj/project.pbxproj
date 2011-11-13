@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49437C3414701390002445AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C3314701390002445AA /* UIKit.framework */; };
+		49437C3614701390002445AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C3514701390002445AA /* Foundation.framework */; };
+		49437C3814701390002445AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C3714701390002445AA /* CoreGraphics.framework */; };
+		49437C3E14701390002445AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49437C3C14701390002445AA /* InfoPlist.strings */; };
+		49437C4014701390002445AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49437C3F14701390002445AA /* main.m */; };
+		49437C4414701390002445AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49437C4314701390002445AA /* AppDelegate.m */; };
+		49437C4714701390002445AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49437C4614701390002445AA /* ViewController.m */; };
+		49437C4A14701390002445AA /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49437C4814701390002445AA /* ViewController_iPhone.xib */; };
+		49437C4D14701390002445AA /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49437C4B14701390002445AA /* ViewController_iPad.xib */; };
+		49437C5514701391002445AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C5414701391002445AA /* SenTestingKit.framework */; };
+		49437C5614701391002445AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C3314701390002445AA /* UIKit.framework */; };
+		49437C5714701391002445AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C3514701390002445AA /* Foundation.framework */; };
+		49437C5F14701391002445AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49437C5D14701391002445AA /* InfoPlist.strings */; };
+		49437C6214701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49437C6114701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.m */; };
+		49437C6D147015D2002445AA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C6B147015D2002445AA /* CoreMedia.framework */; };
+		49437C6E147015D2002445AA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C6C147015D2002445AA /* CoreVideo.framework */; };
+		49437C71147015E5002445AA /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C6F147015E5002445AA /* ImageIO.framework */; };
+		49437C72147015E5002445AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C70147015E5002445AA /* QuartzCore.framework */; };
+		49437C74147017F8002445AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49437C73147017F8002445AA /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49437C5814701391002445AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49437C2614701390002445AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49437C2E14701390002445AA;
+			remoteInfo = "VideoCamCaptureExample-RedGlassesBlog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49437C2F14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VideoCamCaptureExample-RedGlassesBlog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49437C3314701390002445AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49437C3514701390002445AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49437C3714701390002445AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49437C3B14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoCamCaptureExample-RedGlassesBlog-Info.plist"; sourceTree = "<group>"; };
+		49437C3D14701390002445AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49437C3F14701390002445AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49437C4114701390002445AA /* VideoCamCaptureExample-RedGlassesBlog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoCamCaptureExample-RedGlassesBlog-Prefix.pch"; sourceTree = "<group>"; };
+		49437C4214701390002445AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49437C4314701390002445AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49437C4514701390002445AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49437C4614701390002445AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49437C4914701390002445AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		49437C4C14701390002445AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		49437C5314701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VideoCamCaptureExample-RedGlassesBlogTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49437C5414701391002445AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		49437C5C14701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoCamCaptureExample-RedGlassesBlogTests-Info.plist"; sourceTree = "<group>"; };
+		49437C5E14701391002445AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49437C6014701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCamCaptureExample_RedGlassesBlogTests.h; sourceTree = "<group>"; };
+		49437C6114701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCamCaptureExample_RedGlassesBlogTests.m; sourceTree = "<group>"; };
+		49437C6B147015D2002445AA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		49437C6C147015D2002445AA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		49437C6F147015E5002445AA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		49437C70147015E5002445AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49437C73147017F8002445AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49437C2C14701390002445AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49437C74147017F8002445AA /* AVFoundation.framework in Frameworks */,
+				49437C71147015E5002445AA /* ImageIO.framework in Frameworks */,
+				49437C72147015E5002445AA /* QuartzCore.framework in Frameworks */,
+				49437C6D147015D2002445AA /* CoreMedia.framework in Frameworks */,
+				49437C6E147015D2002445AA /* CoreVideo.framework in Frameworks */,
+				49437C3414701390002445AA /* UIKit.framework in Frameworks */,
+				49437C3614701390002445AA /* Foundation.framework in Frameworks */,
+				49437C3814701390002445AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49437C4F14701391002445AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49437C5514701391002445AA /* SenTestingKit.framework in Frameworks */,
+				49437C5614701391002445AA /* UIKit.framework in Frameworks */,
+				49437C5714701391002445AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49437C2414701390002445AA = {
+			isa = PBXGroup;
+			children = (
+				49437C73147017F8002445AA /* AVFoundation.framework */,
+				49437C3914701390002445AA /* VideoCamCaptureExample-RedGlassesBlog */,
+				49437C5A14701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests */,
+				49437C3214701390002445AA /* Frameworks */,
+				49437C3014701390002445AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49437C3014701390002445AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49437C2F14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog.app */,
+				49437C5314701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49437C3214701390002445AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49437C6F147015E5002445AA /* ImageIO.framework */,
+				49437C70147015E5002445AA /* QuartzCore.framework */,
+				49437C6B147015D2002445AA /* CoreMedia.framework */,
+				49437C6C147015D2002445AA /* CoreVideo.framework */,
+				49437C3314701390002445AA /* UIKit.framework */,
+				49437C3514701390002445AA /* Foundation.framework */,
+				49437C3714701390002445AA /* CoreGraphics.framework */,
+				49437C5414701391002445AA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49437C3914701390002445AA /* VideoCamCaptureExample-RedGlassesBlog */ = {
+			isa = PBXGroup;
+			children = (
+				49437C4214701390002445AA /* AppDelegate.h */,
+				49437C4314701390002445AA /* AppDelegate.m */,
+				49437C4514701390002445AA /* ViewController.h */,
+				49437C4614701390002445AA /* ViewController.m */,
+				49437C4814701390002445AA /* ViewController_iPhone.xib */,
+				49437C4B14701390002445AA /* ViewController_iPad.xib */,
+				49437C3A14701390002445AA /* Supporting Files */,
+			);
+			path = "VideoCamCaptureExample-RedGlassesBlog";
+			sourceTree = "<group>";
+		};
+		49437C3A14701390002445AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49437C3B14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog-Info.plist */,
+				49437C3C14701390002445AA /* InfoPlist.strings */,
+				49437C3F14701390002445AA /* main.m */,
+				49437C4114701390002445AA /* VideoCamCaptureExample-RedGlassesBlog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49437C5A14701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				49437C6014701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.h */,
+				49437C6114701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.m */,
+				49437C5B14701391002445AA /* Supporting Files */,
+			);
+			path = "VideoCamCaptureExample-RedGlassesBlogTests";
+			sourceTree = "<group>";
+		};
+		49437C5B14701391002445AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49437C5C14701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests-Info.plist */,
+				49437C5D14701391002445AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49437C2E14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49437C6514701391002445AA /* Build configuration list for PBXNativeTarget "VideoCamCaptureExample-RedGlassesBlog" */;
+			buildPhases = (
+				49437C2B14701390002445AA /* Sources */,
+				49437C2C14701390002445AA /* Frameworks */,
+				49437C2D14701390002445AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VideoCamCaptureExample-RedGlassesBlog";
+			productName = "VideoCamCaptureExample-RedGlassesBlog";
+			productReference = 49437C2F14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49437C5214701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49437C6814701391002445AA /* Build configuration list for PBXNativeTarget "VideoCamCaptureExample-RedGlassesBlogTests" */;
+			buildPhases = (
+				49437C4E14701391002445AA /* Sources */,
+				49437C4F14701391002445AA /* Frameworks */,
+				49437C5014701391002445AA /* Resources */,
+				49437C5114701391002445AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49437C5914701391002445AA /* PBXTargetDependency */,
+			);
+			name = "VideoCamCaptureExample-RedGlassesBlogTests";
+			productName = "VideoCamCaptureExample-RedGlassesBlogTests";
+			productReference = 49437C5314701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49437C2614701390002445AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Little Tiny Machines";
+			};
+			buildConfigurationList = 49437C2914701390002445AA /* Build configuration list for PBXProject "VideoCamCaptureExample-RedGlassesBlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49437C2414701390002445AA;
+			productRefGroup = 49437C3014701390002445AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49437C2E14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog */,
+				49437C5214701391002445AA /* VideoCamCaptureExample-RedGlassesBlogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49437C2D14701390002445AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49437C3E14701390002445AA /* InfoPlist.strings in Resources */,
+				49437C4A14701390002445AA /* ViewController_iPhone.xib in Resources */,
+				49437C4D14701390002445AA /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49437C5014701391002445AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49437C5F14701391002445AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49437C5114701391002445AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49437C2B14701390002445AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49437C4014701390002445AA /* main.m in Sources */,
+				49437C4414701390002445AA /* AppDelegate.m in Sources */,
+				49437C4714701390002445AA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49437C4E14701391002445AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49437C6214701391002445AA /* VideoCamCaptureExample_RedGlassesBlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49437C5914701391002445AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49437C2E14701390002445AA /* VideoCamCaptureExample-RedGlassesBlog */;
+			targetProxy = 49437C5814701391002445AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49437C3C14701390002445AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49437C3D14701390002445AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49437C4814701390002445AA /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49437C4914701390002445AA /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		49437C4B14701390002445AA /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49437C4C14701390002445AA /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		49437C5D14701391002445AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49437C5E14701391002445AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49437C6314701391002445AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49437C6414701391002445AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49437C6614701391002445AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCamCaptureExample-RedGlassesBlog/VideoCamCaptureExample-RedGlassesBlog-Prefix.pch";
+				INFOPLIST_FILE = "VideoCamCaptureExample-RedGlassesBlog/VideoCamCaptureExample-RedGlassesBlog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49437C6714701391002445AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCamCaptureExample-RedGlassesBlog/VideoCamCaptureExample-RedGlassesBlog-Prefix.pch";
+				INFOPLIST_FILE = "VideoCamCaptureExample-RedGlassesBlog/VideoCamCaptureExample-RedGlassesBlog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49437C6914701391002445AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoCamCaptureExample-RedGlassesBlog.app/VideoCamCaptureExample-RedGlassesBlog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCamCaptureExample-RedGlassesBlog/VideoCamCaptureExample-RedGlassesBlog-Prefix.pch";
+				INFOPLIST_FILE = "VideoCamCaptureExample-RedGlassesBlogTests/VideoCamCaptureExample-RedGlassesBlogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		49437C6A14701391002445AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoCamCaptureExample-RedGlassesBlog.app/VideoCamCaptureExample-RedGlassesBlog";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoCamCaptureExample-RedGlassesBlog/VideoCamCaptureExample-RedGlassesBlog-Prefix.pch";
+				INFOPLIST_FILE = "VideoCamCaptureExample-RedGlassesBlogTests/VideoCamCaptureExample-RedGlassesBlogTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49437C2914701390002445AA /* Build configuration list for PBXProject "VideoCamCaptureExample-RedGlassesBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49437C6314701391002445AA /* Debug */,
+				49437C6414701391002445AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49437C6514701391002445AA /* Build configuration list for PBXNativeTarget "VideoCamCaptureExample-RedGlassesBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49437C6614701391002445AA /* Debug */,
+				49437C6714701391002445AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49437C6814701391002445AA /* Build configuration list for PBXNativeTarget "VideoCamCaptureExample-RedGlassesBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49437C6914701391002445AA /* Debug */,
+				49437C6A14701391002445AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49437C2614701390002445AA /* Project object */;
+}

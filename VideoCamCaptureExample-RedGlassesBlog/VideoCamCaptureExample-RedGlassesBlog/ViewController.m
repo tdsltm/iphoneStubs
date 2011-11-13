@@ -5,7 +5,10 @@
 //  Created by Tereus Scott on 11-11-13.
 //  2011 Little Tiny Machines. 
 //
+//  This work is provided on an 'as is' basis, without warranty of any kind. Use at your own risk! Under no circumstances shall the author(s) or contributor(s) be liable for damages resulting directly or indirectly from the use or non-use of this work. 
+//
 //  This project incorporates and extends example code from: 
+//  http://stackoverflow.com/questions/3847140/iphone-sdk-4-avfoundation-how-to-use-capturestillimageasynchronouslyfromconnectioncompletionhandler
 //  http://blog.red-glasses.com/index.php/tutorials/ios4-take-photos-with-live-video-preview-using-avfoundation/
 //  
 //  This sample shows how to set up a capture session to grab video frames along with still image snapshots.
@@ -75,6 +78,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
     iFrameCount++;
     
     // Update Display
+    // We are running the the context of the capture session. To update the UI in real time, We have to do this in the context of the main thread.
     NSString * frameCountString = [[NSString alloc] initWithFormat:@"%4.4d", iFrameCount];
     [lFrameCount performSelectorOnMainThread: @selector(setText:) withObject:frameCountString waitUntilDone:YES];
     
